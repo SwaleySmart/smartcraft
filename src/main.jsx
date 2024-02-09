@@ -1,9 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+
+// Components
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
-import ContentColumns  from "./components/ContentColumns.jsx";
+import ContentColumns  from "./components/ContentColumns.jsx"
+import Footer from './components/Footer.jsx'
 
+// Image Assets
 import BeautifulUi from './assets/beautiful-ui.png'
 import Wireframe from './assets/wireframe.png'
 
@@ -26,5 +30,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           heading={"Let’s take a deep dive into your digital product’s user journey."}
           imageSrc={Wireframe}
           text={"UX design is a discipline aimed at optimizing user satisfaction and usability in product experiences. It involves researching, prototyping, and testing to understand and meet user needs. The goal is to create seamless, enjoyable interactions that align with both user expectations and business objectives. UX design is a collaborative process that considers the entire user journey, emphasizing user-centric solutions for digital or physical products."}></ContentColumns>
+      <Footer />
   </React.StrictMode>
 )

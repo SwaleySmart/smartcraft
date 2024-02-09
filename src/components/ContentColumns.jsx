@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-function ContentColumns({ reverse = false, padding, heading, text, imageSrc}) {
+function ContentColumns({ reverse = false, padding = '', heading, text, imageSrc}) {
     const orderClass = reverse ? 'lg:flex-row-reverse' : 'lg:flex-row';
 
     return (

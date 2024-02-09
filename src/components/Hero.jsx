@@ -12,9 +12,7 @@ function Hero() {
                 <p className="text-xl lg:text-2xl font-black mt-5">Unicorn Developer</p>
                 <p className="text-xl font-bold text-brand">/ˈjuːnɪkɔːn/ /dɪˈvɛləpə/</p>
                 <p className="text-lg lg:text-xl font-semibold">Noun</p>
-                <p className="text-lg lg:text-xl font-semibold mt-10">“A rare breed of person who can both design and engineer
-                    web applications from UX/UI design, fullstack development and finally deploy using modern devops
-                    methodology and infrastructure.”</p>
+                <p className="text-lg lg:text-xl font-semibold mt-10">“A Developer who has the ability to both design and code, so rare to find that they have been given the mythical Unicorn title within the tech industry.”</p>
             </div>
         </div>
     </div>
